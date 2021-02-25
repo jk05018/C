@@ -15,6 +15,9 @@ int print(int a)
 	}
 } 
 int main(void){
-	
+	int a;
+	printf("숫자를 입력하세요:");
+	scanf("%d", &a);
+	print(a);
 	return 0;
 } 
